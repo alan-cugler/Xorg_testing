@@ -1,0 +1,530 @@
+[    30.647] 
+X.Org X Server 1.18.4
+Release Date: 2016-07-19
+[    30.647] X Protocol Version 11, Revision 0
+[    30.647] Build Operating System: Linux 4.4.0-97-generic x86_64 Ubuntu
+[    30.647] Current Operating System: Linux CPC 4.4.0-121-generic #145-Ubuntu SMP Fri Apr 13 13:47:23 UTC 2018 x86_64
+[    30.647] Kernel command line: BOOT_IMAGE=/boot/vmlinuz-4.4.0-121-generic root=UUID=1f1b55ae-c75b-4f33-8855-d49e579c1d52 ro
+[    30.647] Build Date: 13 October 2017  01:57:05PM
+[    30.647] xorg-server 2:1.18.4-0ubuntu0.7 (For technical support please see http://www.ubuntu.com/support) 
+[    30.647] Current version of pixman: 0.33.6
+[    30.647] 	Before reporting problems, check http://wiki.x.org
+	to make sure that you have the latest version.
+[    30.647] Markers: (--) probed, (**) from config file, (==) default setting,
+	(++) from command line, (!!) notice, (II) informational,
+	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+[    30.647] (==) Log file: "/var/log/Xorg.0.log", Time: Fri Apr 27 15:10:19 2018
+[    30.647] (==) Using config file: "/etc/X11/xorg.conf"
+[    30.647] (==) Using system config directory "/usr/share/X11/xorg.conf.d"
+[    30.647] (==) ServerLayout "Layout0"
+[    30.647] (**) |-->Screen "CL_Screen" (0)
+[    30.647] (**) |   |-->Monitor "CL_monitor"
+[    30.647] (**) |   |-->Device "CL_device"
+[    30.647] (**) |-->Screen "FL_Screen" (1)
+[    30.647] (**) |   |-->Monitor "FL_monitor"
+[    30.647] (**) |   |-->Device "FL_device"
+[    30.647] (**) |-->Screen "TL_Screen" (2)
+[    30.647] (**) |   |-->Monitor "TL_monitor"
+[    30.648] (**) |   |-->Device "TL_device"
+[    30.648] (**) |-->Screen "CR_Screen" (3)
+[    30.648] (**) |   |-->Monitor "CR_monitor"
+[    30.648] (**) |   |-->Device "CR_device"
+[    30.648] (**) |-->Screen "FR_Screen" (4)
+[    30.648] (**) |   |-->Monitor "FR_monitor"
+[    30.648] (**) |   |-->Device "FR_device"
+[    30.648] (**) |-->Screen "TR_Screen" (5)
+[    30.648] (**) |   |-->Monitor "TR_monitor"
+[    30.648] (**) |   |-->Device "TR_device"
+[    30.648] (EE) Screen CL_screen doesn't exist: deleting placement
+[    30.648] (EE) Screen CL_screen doesn't exist: deleting placement
+[    30.648] (EE) Screen CL_screen doesn't exist: deleting placement
+[    30.648] (EE) Screen CR_screen doesn't exist: deleting placement
+[    30.648] (EE) Screen CR_screen doesn't exist: deleting placement
+[    30.648] (**) |-->Input Device "Keyboard0"
+[    30.648] (**) |-->Input Device "Mouse0"
+[    30.648] (**) Option "Xinerama" "0"
+[    30.648] (==) Automatically adding devices
+[    30.648] (==) Automatically enabling devices
+[    30.648] (==) Automatically adding GPU devices
+[    30.648] (==) Max clients allowed: 256, resource mask: 0x1fffff
+[    30.648] (WW) The directory "/usr/share/fonts/X11/cyrillic" does not exist.
+[    30.648] 	Entry deleted from font path.
+[    30.648] (WW) The directory "/usr/share/fonts/X11/100dpi/" does not exist.
+[    30.648] 	Entry deleted from font path.
+[    30.648] (WW) The directory "/usr/share/fonts/X11/75dpi/" does not exist.
+[    30.648] 	Entry deleted from font path.
+[    30.648] (WW) The directory "/usr/share/fonts/X11/100dpi" does not exist.
+[    30.648] 	Entry deleted from font path.
+[    30.648] (WW) The directory "/usr/share/fonts/X11/75dpi" does not exist.
+[    30.648] 	Entry deleted from font path.
+[    30.648] (==) FontPath set to:
+	/usr/share/fonts/X11/misc,
+	/usr/share/fonts/X11/Type1,
+	built-ins
+[    30.648] (==) ModulePath set to "/usr/lib/x86_64-linux-gnu/xorg/extra-modules,/usr/lib/xorg/extra-modules,/usr/lib/xorg/modules"
+[    30.648] (**) Extension "Composite" is disabled
+[    30.648] (WW) Hotplugging is on, devices using drivers 'kbd', 'mouse' or 'vmmouse' will be disabled.
+[    30.648] (WW) Disabling Keyboard0
+[    30.648] (WW) Disabling Mouse0
+[    30.648] (II) Loader magic: 0x56054042fdc0
+[    30.648] (II) Module ABI versions:
+[    30.648] 	X.Org ANSI C Emulation: 0.4
+[    30.648] 	X.Org Video Driver: 20.0
+[    30.648] 	X.Org XInput driver : 22.1
+[    30.648] 	X.Org Server Extension : 9.0
+[    30.648] (++) using VT number 7
+
+[    30.648] (II) systemd-logind: logind integration requires -keeptty and -keeptty was not provided, disabling logind integration
+[    30.648] (II) xfree86: Adding drm device (/dev/dri/card0)
+[    30.648] (II) xfree86: Adding drm device (/dev/dri/card1)
+[    30.650] (--) PCI:*(0:1:0:0) 10de:13c2:3842:2978 rev 161, Mem @ 0xde000000/16777216, 0xc0000000/268435456, 0xd0000000/33554432, I/O @ 0x0000e000/128, BIOS @ 0x????????/524288
+[    30.650] (--) PCI: (0:2:0:0) 10de:13c2:3842:2978 rev 161, Mem @ 0xdc000000/16777216, 0xa0000000/268435456, 0xb0000000/33554432, I/O @ 0x0000d000/128, BIOS @ 0x????????/524288
+[    30.650] (WW) "glamoregl" will not be loaded unless you've specified it to be loaded elsewhere.
+[    30.650] (II) "glx" will be loaded by default.
+[    30.650] (II) LoadModule: "glx"
+[    30.650] (II) Loading /usr/lib/x86_64-linux-gnu/xorg/extra-modules/libglx.so
+[    30.652] (II) Module glx: vendor="NVIDIA Corporation"
+[    30.652] 	compiled for 4.0.2, module version = 1.0.0
+[    30.652] 	Module class: X.Org Server Extension
+[    30.652] (II) NVIDIA GLX Module  384.111  Tue Dec 19 22:51:13 PST 2017
+[    30.652] (II) LoadModule: "nvidia"
+[    30.652] (II) Loading /usr/lib/x86_64-linux-gnu/xorg/extra-modules/nvidia_drv.so
+[    30.652] (II) Module nvidia: vendor="NVIDIA Corporation"
+[    30.652] 	compiled for 4.0.2, module version = 1.0.0
+[    30.652] 	Module class: X.Org Video Driver
+[    30.652] (II) NVIDIA dlloader X Driver  384.111  Tue Dec 19 22:25:34 PST 2017
+[    30.652] (II) NVIDIA Unified Driver for all Supported NVIDIA GPUs
+[    30.652] (II) Loading sub module "fb"
+[    30.652] (II) LoadModule: "fb"
+[    30.653] (II) Loading /usr/lib/xorg/modules/libfb.so
+[    30.653] (II) Module fb: vendor="X.Org Foundation"
+[    30.653] 	compiled for 1.18.4, module version = 1.0.0
+[    30.653] 	ABI class: X.Org ANSI C Emulation, version 0.4
+[    30.653] (II) Loading sub module "wfb"
+[    30.653] (II) LoadModule: "wfb"
+[    30.653] (II) Loading /usr/lib/xorg/modules/libwfb.so
+[    30.653] (II) Module wfb: vendor="X.Org Foundation"
+[    30.653] 	compiled for 1.18.4, module version = 1.0.0
+[    30.653] 	ABI class: X.Org ANSI C Emulation, version 0.4
+[    30.653] (II) Loading sub module "ramdac"
+[    30.653] (II) LoadModule: "ramdac"
+[    30.653] (II) Module "ramdac" already built-in
+[    30.653] (EE) Screen 3 deleted because of no matching config section.
+[    30.653] (II) UnloadModule: "nvidia"
+[    30.653] (II) UnloadSubModule: "wfb"
+[    30.653] (II) UnloadSubModule: "fb"
+[    30.653] (EE) Screen 3 deleted because of no matching config section.
+[    30.653] (II) UnloadModule: "nvidia"
+[    30.653] (II) UnloadSubModule: "wfb"
+[    30.653] (II) UnloadSubModule: "fb"
+[    30.653] (EE) Screen 3 deleted because of no matching config section.
+[    30.653] (II) UnloadModule: "nvidia"
+[    30.653] (II) UnloadSubModule: "wfb"
+[    30.653] (II) UnloadSubModule: "fb"
+[    30.653] (**) NVIDIA(0): Depth 24, (--) framebuffer bpp 32
+[    30.653] (==) NVIDIA(0): RGB weight 888
+[    30.653] (==) NVIDIA(0): Default visual is TrueColor
+[    30.653] (==) NVIDIA(0): Using gamma correction (1.0, 1.0, 1.0)
+[    30.653] (**) NVIDIA(0): Option "Stereo" "0"
+[    30.653] (**) NVIDIA(0): Option "SLI" "false"
+[    30.653] (**) NVIDIA(0): Option "MultiGPU" "false"
+[    30.653] (**) NVIDIA(0): Option "BaseMosaic" "false"
+[    30.653] (**) NVIDIA(0): Stereo disabled by request
+[    30.653] (**) NVIDIA(0): NVIDIA SLI disabled.
+[    30.653] (**) NVIDIA(0): NVIDIA Multi-GPU disabled.
+[    30.653] (**) NVIDIA(0): Option "MetaModes" "DVI-D-0: 1680x1050"
+[    30.653] (**) NVIDIA(1): Option "MetaModes" "DVI-I-1: 1680x1050"
+[    30.654] (**) NVIDIA(2): Option "MetaModes" "DP-1: 1680x1050"
+[    30.654] (**) NVIDIA(0): Enabling 2D acceleration
+[    31.173] (--) NVIDIA(0): Valid display device(s) on GPU-0 at PCI:1:0:0
+[    31.173] (--) NVIDIA(0):     CRT-0
+[    31.173] (--) NVIDIA(0):     DFP-0 (boot)
+[    31.173] (--) NVIDIA(0):     DFP-1
+[    31.173] (--) NVIDIA(0):     DFP-2
+[    31.173] (--) NVIDIA(0):     DFP-3
+[    31.173] (--) NVIDIA(0):     DFP-4
+[    31.174] (II) NVIDIA(0): NVIDIA GPU GeForce GTX 970 (GM204-A) at PCI:1:0:0 (GPU-0)
+[    31.174] (--) NVIDIA(0): Memory: 4194304 kBytes
+[    31.174] (--) NVIDIA(0): VideoBIOS: 84.04.28.00.71
+[    31.174] (II) NVIDIA(0): Detected PCI Express Link width: 16X
+[    31.190] (--) NVIDIA(GPU-0): CRT-0: disconnected
+[    31.190] (--) NVIDIA(GPU-0): CRT-0: 400.0 MHz maximum pixel clock
+[    31.190] (--) NVIDIA(GPU-0): 
+[    31.220] (--) NVIDIA(GPU-0): DELL E207WFP (DFP-0): connected
+[    31.220] (--) NVIDIA(GPU-0): DELL E207WFP (DFP-0): Internal TMDS
+[    31.220] (--) NVIDIA(GPU-0): DELL E207WFP (DFP-0): 330.0 MHz maximum pixel clock
+[    31.220] (--) NVIDIA(GPU-0): 
+[    31.220] (--) NVIDIA(GPU-0): DFP-1: disconnected
+[    31.220] (--) NVIDIA(GPU-0): DFP-1: Internal TMDS
+[    31.220] (--) NVIDIA(GPU-0): DFP-1: 165.0 MHz maximum pixel clock
+[    31.220] (--) NVIDIA(GPU-0): 
+[    31.220] (--) NVIDIA(GPU-0): DFP-2: disconnected
+[    31.220] (--) NVIDIA(GPU-0): DFP-2: Internal DisplayPort
+[    31.220] (--) NVIDIA(GPU-0): DFP-2: 960.0 MHz maximum pixel clock
+[    31.220] (--) NVIDIA(GPU-0): 
+[    31.256] (--) NVIDIA(GPU-0): DELL E207WFP (DFP-3): connected
+[    31.256] (--) NVIDIA(GPU-0): DELL E207WFP (DFP-3): Internal TMDS
+[    31.256] (--) NVIDIA(GPU-0): DELL E207WFP (DFP-3): 165.0 MHz maximum pixel clock
+[    31.256] (--) NVIDIA(GPU-0): 
+[    31.271] (--) NVIDIA(GPU-0): DELL E207WFP (DFP-4): connected
+[    31.271] (--) NVIDIA(GPU-0): DELL E207WFP (DFP-4): Internal TMDS
+[    31.271] (--) NVIDIA(GPU-0): DELL E207WFP (DFP-4): 330.0 MHz maximum pixel clock
+[    31.271] (--) NVIDIA(GPU-0): 
+[    31.273] (II) NVIDIA(0): Validated MetaModes:
+[    31.273] (II) NVIDIA(0):     "DVI-D-0:1680x1050"
+[    31.273] (II) NVIDIA(0): Virtual screen size determined to be 1680 x 1050
+[    31.276] (--) NVIDIA(0): DPI set to (99, 98); computed from "UseEdidDpi" X config
+[    31.276] (--) NVIDIA(0):     option
+[    31.276] (**) NVIDIA(1): Depth 24, (--) framebuffer bpp 32
+[    31.276] (==) NVIDIA(1): RGB weight 888
+[    31.276] (==) NVIDIA(1): Default visual is TrueColor
+[    31.276] (==) NVIDIA(1): Using gamma correction (1.0, 1.0, 1.0)
+[    31.276] (**) NVIDIA(1): Option "Stereo" "0"
+[    31.276] (**) NVIDIA(1): Option "SLI" "false"
+[    31.276] (**) NVIDIA(1): Option "MultiGPU" "false"
+[    31.276] (**) NVIDIA(1): Option "BaseMosaic" "false"
+[    31.276] (**) NVIDIA(1): Stereo disabled by request
+[    31.276] (**) NVIDIA(1): NVIDIA SLI disabled.
+[    31.276] (**) NVIDIA(1): NVIDIA Multi-GPU disabled.
+[    31.276] (II) NVIDIA(1): NVIDIA GPU GeForce GTX 970 (GM204-A) at PCI:1:0:0 (GPU-0)
+[    31.276] (--) NVIDIA(1): Memory: 4194304 kBytes
+[    31.276] (--) NVIDIA(1): VideoBIOS: 84.04.28.00.71
+[    31.276] (II) NVIDIA(1): Detected PCI Express Link width: 16X
+[    31.277] (II) NVIDIA(1): Validated MetaModes:
+[    31.277] (II) NVIDIA(1):     "DVI-I-1:1680x1050"
+[    31.277] (II) NVIDIA(1): Virtual screen size determined to be 1680 x 1050
+[    31.281] (--) NVIDIA(1): DPI set to (99, 98); computed from "UseEdidDpi" X config
+[    31.281] (--) NVIDIA(1):     option
+[    31.281] (**) NVIDIA(2): Depth 24, (--) framebuffer bpp 32
+[    31.281] (==) NVIDIA(2): RGB weight 888
+[    31.281] (==) NVIDIA(2): Default visual is TrueColor
+[    31.281] (==) NVIDIA(2): Using gamma correction (1.0, 1.0, 1.0)
+[    31.281] (**) NVIDIA(2): Option "Stereo" "0"
+[    31.281] (**) NVIDIA(2): Option "SLI" "false"
+[    31.281] (**) NVIDIA(2): Option "MultiGPU" "false"
+[    31.281] (**) NVIDIA(2): Option "BaseMosaic" "false"
+[    31.281] (**) NVIDIA(2): Stereo disabled by request
+[    31.281] (**) NVIDIA(2): NVIDIA SLI disabled.
+[    31.281] (**) NVIDIA(2): NVIDIA Multi-GPU disabled.
+[    31.281] (II) NVIDIA(2): NVIDIA GPU GeForce GTX 970 (GM204-A) at PCI:1:0:0 (GPU-0)
+[    31.281] (--) NVIDIA(2): Memory: 4194304 kBytes
+[    31.281] (--) NVIDIA(2): VideoBIOS: 84.04.28.00.71
+[    31.281] (II) NVIDIA(2): Detected PCI Express Link width: 16X
+[    31.282] (II) NVIDIA(2): Validated MetaModes:
+[    31.282] (II) NVIDIA(2):     "DP-1:1680x1050"
+[    31.282] (II) NVIDIA(2): Virtual screen size determined to be 1680 x 1050
+[    31.286] (--) NVIDIA(2): DPI set to (99, 98); computed from "UseEdidDpi" X config
+[    31.286] (--) NVIDIA(2):     option
+[    31.286] (--) Depth 24 pixmap format is 32 bpp
+[    31.678] (--) NVIDIA(0): Valid display device(s) on GPU-1 at PCI:2:0:0
+[    31.678] (--) NVIDIA(0):     CRT-0
+[    31.678] (--) NVIDIA(0):     DFP-0
+[    31.678] (--) NVIDIA(0):     DFP-1
+[    31.678] (--) NVIDIA(0):     DFP-2
+[    31.678] (--) NVIDIA(0):     DFP-3
+[    31.678] (--) NVIDIA(0):     DFP-4 (boot)
+[    31.682] (--) NVIDIA(GPU-1): CRT-0: disconnected
+[    31.682] (--) NVIDIA(GPU-1): CRT-0: 400.0 MHz maximum pixel clock
+[    31.682] (--) NVIDIA(GPU-1): 
+[    31.684] (--) NVIDIA(GPU-1): DFP-0: disconnected
+[    31.684] (--) NVIDIA(GPU-1): DFP-0: Internal TMDS
+[    31.684] (--) NVIDIA(GPU-1): DFP-0: 330.0 MHz maximum pixel clock
+[    31.684] (--) NVIDIA(GPU-1): 
+[    31.700] (--) NVIDIA(GPU-1): DELL E207WFP (DFP-1): connected
+[    31.700] (--) NVIDIA(GPU-1): DELL E207WFP (DFP-1): Internal TMDS
+[    31.700] (--) NVIDIA(GPU-1): DELL E207WFP (DFP-1): 165.0 MHz maximum pixel clock
+[    31.700] (--) NVIDIA(GPU-1): 
+[    31.700] (--) NVIDIA(GPU-1): DFP-2: disconnected
+[    31.700] (--) NVIDIA(GPU-1): DFP-2: Internal DisplayPort
+[    31.700] (--) NVIDIA(GPU-1): DFP-2: 960.0 MHz maximum pixel clock
+[    31.700] (--) NVIDIA(GPU-1): 
+[    31.701] (--) NVIDIA(GPU-1): DFP-3: disconnected
+[    31.701] (--) NVIDIA(GPU-1): DFP-3: Internal TMDS
+[    31.701] (--) NVIDIA(GPU-1): DFP-3: 165.0 MHz maximum pixel clock
+[    31.701] (--) NVIDIA(GPU-1): 
+[    31.717] (--) NVIDIA(GPU-1): DELL E2009W (DFP-4): connected
+[    31.717] (--) NVIDIA(GPU-1): DELL E2009W (DFP-4): Internal TMDS
+[    31.717] (--) NVIDIA(GPU-1): DELL E2009W (DFP-4): 330.0 MHz maximum pixel clock
+[    31.717] (--) NVIDIA(GPU-1): 
+[    31.750] (II) NVIDIA(GPU-1): NVIDIA GPU GeForce GTX 970 (GM204-A) at PCI:2:0:0 (GPU-1)
+[    31.750] (--) NVIDIA(GPU-1): Memory: 4194304 kBytes
+[    31.750] (--) NVIDIA(GPU-1): VideoBIOS: 84.04.28.00.71
+[    31.750] (II) NVIDIA(GPU-1): Detected PCI Express Link width: 16X
+[    31.752] (II) NVIDIA: Using 6144.00 MB of virtual memory for indirect memory
+[    31.752] (II) NVIDIA:     access.
+[    31.765] (II) NVIDIA(0): Setting mode "DVI-D-0:1680x1050"
+[    31.821] (==) NVIDIA(0): Disabling shared memory pixmaps
+[    31.821] (==) NVIDIA(0): Backing store disabled
+[    31.821] (==) NVIDIA(0): Silken mouse enabled
+[    31.821] (**) NVIDIA(0): DPMS enabled
+[    31.821] (II) Loading sub module "dri2"
+[    31.821] (II) LoadModule: "dri2"
+[    31.821] (II) Module "dri2" already built-in
+[    31.821] (II) NVIDIA(0): [DRI2] Setup complete
+[    31.821] (II) NVIDIA(0): [DRI2]   VDPAU driver: nvidia
+[    31.821] (--) RandR disabled
+[    31.835] (II) NVIDIA(1): Setting mode "DVI-I-1:1680x1050"
+[    31.973] (==) NVIDIA(1): Disabling shared memory pixmaps
+[    31.973] (==) NVIDIA(1): Backing store disabled
+[    31.973] (==) NVIDIA(1): Silken mouse enabled
+[    31.973] (**) NVIDIA(1): DPMS enabled
+[    31.973] (II) Loading sub module "dri2"
+[    31.973] (II) LoadModule: "dri2"
+[    31.973] (II) Module "dri2" already built-in
+[    31.973] (II) NVIDIA(1): [DRI2] Setup complete
+[    31.973] (II) NVIDIA(1): [DRI2]   VDPAU driver: nvidia
+[    31.973] (--) RandR disabled
+[    31.986] (II) NVIDIA(2): Setting mode "DP-1:1680x1050"
+[    32.178] (==) NVIDIA(2): Disabling shared memory pixmaps
+[    32.178] (==) NVIDIA(2): Backing store disabled
+[    32.178] (==) NVIDIA(2): Silken mouse enabled
+[    32.178] (**) NVIDIA(2): DPMS enabled
+[    32.178] (II) Loading sub module "dri2"
+[    32.178] (II) LoadModule: "dri2"
+[    32.178] (II) Module "dri2" already built-in
+[    32.178] (II) NVIDIA(2): [DRI2] Setup complete
+[    32.178] (II) NVIDIA(2): [DRI2]   VDPAU driver: nvidia
+[    32.178] (--) RandR disabled
+[    32.180] (II) SELinux: Disabled on system
+[    32.180] (II) Initializing extension GLX
+[    32.180] (II) Indirect GLX disabled.
+[    32.208] (II) config/udev: Adding input device Power Button (/dev/input/event1)
+[    32.208] (**) Power Button: Applying InputClass "evdev keyboard catchall"
+[    32.208] (II) LoadModule: "evdev"
+[    32.208] (II) Loading /usr/lib/xorg/modules/input/evdev_drv.so
+[    32.209] (II) Module evdev: vendor="X.Org Foundation"
+[    32.209] 	compiled for 1.18.1, module version = 2.10.1
+[    32.209] 	Module class: X.Org XInput Driver
+[    32.209] 	ABI class: X.Org XInput driver, version 22.1
+[    32.209] (II) Using input driver 'evdev' for 'Power Button'
+[    32.209] (**) Power Button: always reports core events
+[    32.209] (**) evdev: Power Button: Device: "/dev/input/event1"
+[    32.209] (--) evdev: Power Button: Vendor 0 Product 0x1
+[    32.209] (--) evdev: Power Button: Found keys
+[    32.209] (II) evdev: Power Button: Configuring as keyboard
+[    32.209] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXPWRBN:00/input/input1/event1"
+[    32.209] (II) XINPUT: Adding extended input device "Power Button" (type: KEYBOARD, id 6)
+[    32.209] (**) Option "xkb_rules" "evdev"
+[    32.209] (**) Option "xkb_model" "pc105"
+[    32.209] (**) Option "xkb_layout" "us"
+[    32.209] (II) config/udev: Adding input device Power Button (/dev/input/event0)
+[    32.209] (**) Power Button: Applying InputClass "evdev keyboard catchall"
+[    32.209] (II) Using input driver 'evdev' for 'Power Button'
+[    32.209] (**) Power Button: always reports core events
+[    32.209] (**) evdev: Power Button: Device: "/dev/input/event0"
+[    32.209] (--) evdev: Power Button: Vendor 0 Product 0x1
+[    32.209] (--) evdev: Power Button: Found keys
+[    32.209] (II) evdev: Power Button: Configuring as keyboard
+[    32.209] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0C:00/input/input0/event0"
+[    32.209] (II) XINPUT: Adding extended input device "Power Button" (type: KEYBOARD, id 7)
+[    32.209] (**) Option "xkb_rules" "evdev"
+[    32.209] (**) Option "xkb_model" "pc105"
+[    32.209] (**) Option "xkb_layout" "us"
+[    32.209] (II) config/udev: Adding input device HDA NVidia HDMI/DP,pcm=3 (/dev/input/event20)
+[    32.209] (II) No input driver specified, ignoring this device.
+[    32.209] (II) This device may have been added with another device file.
+[    32.209] (II) config/udev: Adding input device HDA NVidia HDMI/DP,pcm=7 (/dev/input/event21)
+[    32.209] (II) No input driver specified, ignoring this device.
+[    32.209] (II) This device may have been added with another device file.
+[    32.210] (II) config/udev: Adding input device HDA NVidia HDMI/DP,pcm=8 (/dev/input/event22)
+[    32.210] (II) No input driver specified, ignoring this device.
+[    32.210] (II) This device may have been added with another device file.
+[    32.210] (II) config/udev: Adding input device HDA NVidia HDMI/DP,pcm=9 (/dev/input/event23)
+[    32.210] (II) No input driver specified, ignoring this device.
+[    32.210] (II) This device may have been added with another device file.
+[    32.210] (II) config/udev: Adding input device HDA NVidia HDMI/DP,pcm=3 (/dev/input/event16)
+[    32.210] (II) No input driver specified, ignoring this device.
+[    32.210] (II) This device may have been added with another device file.
+[    32.210] (II) config/udev: Adding input device HDA NVidia HDMI/DP,pcm=7 (/dev/input/event17)
+[    32.210] (II) No input driver specified, ignoring this device.
+[    32.210] (II) This device may have been added with another device file.
+[    32.210] (II) config/udev: Adding input device HDA NVidia HDMI/DP,pcm=8 (/dev/input/event18)
+[    32.210] (II) No input driver specified, ignoring this device.
+[    32.210] (II) This device may have been added with another device file.
+[    32.210] (II) config/udev: Adding input device HDA NVidia HDMI/DP,pcm=9 (/dev/input/event19)
+[    32.210] (II) No input driver specified, ignoring this device.
+[    32.210] (II) This device may have been added with another device file.
+[    32.211] (II) config/udev: Adding input device Logitech USB Receiver (/dev/input/event2)
+[    32.211] (**) Logitech USB Receiver: Applying InputClass "evdev pointer catchall"
+[    32.211] (II) Using input driver 'evdev' for 'Logitech USB Receiver'
+[    32.211] (**) Logitech USB Receiver: always reports core events
+[    32.211] (**) evdev: Logitech USB Receiver: Device: "/dev/input/event2"
+[    32.264] (--) evdev: Logitech USB Receiver: Vendor 0x46d Product 0xc52f
+[    32.264] (--) evdev: Logitech USB Receiver: Found 20 mouse buttons
+[    32.264] (--) evdev: Logitech USB Receiver: Found scroll wheel(s)
+[    32.264] (--) evdev: Logitech USB Receiver: Found relative axes
+[    32.264] (--) evdev: Logitech USB Receiver: Found x and y relative axes
+[    32.264] (II) evdev: Logitech USB Receiver: Configuring as mouse
+[    32.264] (II) evdev: Logitech USB Receiver: Adding scrollwheel support
+[    32.264] (**) evdev: Logitech USB Receiver: YAxisMapping: buttons 4 and 5
+[    32.264] (**) evdev: Logitech USB Receiver: EmulateWheelButton: 4, EmulateWheelInertia: 10, EmulateWheelTimeout: 200
+[    32.264] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:1a.0/usb1/1-1/1-1.1/1-1.1.1/1-1.1.1:1.0/0003:046D:C52F.0001/input/input5/event2"
+[    32.264] (II) XINPUT: Adding extended input device "Logitech USB Receiver" (type: MOUSE, id 8)
+[    32.264] (II) evdev: Logitech USB Receiver: initialized for relative axes.
+[    32.264] (**) Logitech USB Receiver: (accel) keeping acceleration scheme 1
+[    32.264] (**) Logitech USB Receiver: (accel) acceleration profile 0
+[    32.264] (**) Logitech USB Receiver: (accel) acceleration factor: 2.000
+[    32.264] (**) Logitech USB Receiver: (accel) acceleration threshold: 4
+[    32.264] (II) config/udev: Adding input device Logitech USB Receiver (/dev/input/mouse0)
+[    32.264] (II) No input driver specified, ignoring this device.
+[    32.264] (II) This device may have been added with another device file.
+[    32.264] (II) config/udev: Adding input device Logitech USB Receiver (/dev/input/event3)
+[    32.264] (**) Logitech USB Receiver: Applying InputClass "evdev keyboard catchall"
+[    32.264] (II) Using input driver 'evdev' for 'Logitech USB Receiver'
+[    32.264] (**) Logitech USB Receiver: always reports core events
+[    32.264] (**) evdev: Logitech USB Receiver: Device: "/dev/input/event3"
+[    32.264] (--) evdev: Logitech USB Receiver: Vendor 0x46d Product 0xc52f
+[    32.264] (--) evdev: Logitech USB Receiver: Found 1 mouse buttons
+[    32.264] (--) evdev: Logitech USB Receiver: Found scroll wheel(s)
+[    32.264] (--) evdev: Logitech USB Receiver: Found relative axes
+[    32.264] (II) evdev: Logitech USB Receiver: Forcing relative x/y axes to exist.
+[    32.264] (--) evdev: Logitech USB Receiver: Found absolute axes
+[    32.264] (II) evdev: Logitech USB Receiver: Forcing absolute x/y axes to exist.
+[    32.264] (--) evdev: Logitech USB Receiver: Found keys
+[    32.264] (II) evdev: Logitech USB Receiver: Configuring as mouse
+[    32.264] (II) evdev: Logitech USB Receiver: Configuring as keyboard
+[    32.264] (II) evdev: Logitech USB Receiver: Adding scrollwheel support
+[    32.264] (**) evdev: Logitech USB Receiver: YAxisMapping: buttons 4 and 5
+[    32.264] (**) evdev: Logitech USB Receiver: EmulateWheelButton: 4, EmulateWheelInertia: 10, EmulateWheelTimeout: 200
+[    32.265] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:1a.0/usb1/1-1/1-1.1/1-1.1.1/1-1.1.1:1.1/0003:046D:C52F.0002/input/input6/event3"
+[    32.265] (II) XINPUT: Adding extended input device "Logitech USB Receiver" (type: KEYBOARD, id 9)
+[    32.265] (**) Option "xkb_rules" "evdev"
+[    32.265] (**) Option "xkb_model" "pc105"
+[    32.265] (**) Option "xkb_layout" "us"
+[    32.265] (II) evdev: Logitech USB Receiver: initialized for relative axes.
+[    32.265] (WW) evdev: Logitech USB Receiver: ignoring absolute axes.
+[    32.265] (**) Logitech USB Receiver: (accel) keeping acceleration scheme 1
+[    32.265] (**) Logitech USB Receiver: (accel) acceleration profile 0
+[    32.265] (**) Logitech USB Receiver: (accel) acceleration factor: 2.000
+[    32.265] (**) Logitech USB Receiver: (accel) acceleration threshold: 4
+[    32.265] (II) config/udev: Adding input device HD Webcam C525 (/dev/input/event14)
+[    32.265] (**) HD Webcam C525: Applying InputClass "evdev keyboard catchall"
+[    32.265] (II) Using input driver 'evdev' for 'HD Webcam C525'
+[    32.265] (**) HD Webcam C525: always reports core events
+[    32.265] (**) evdev: HD Webcam C525: Device: "/dev/input/event14"
+[    32.265] (--) evdev: HD Webcam C525: Vendor 0x46d Product 0x826
+[    32.265] (--) evdev: HD Webcam C525: Found keys
+[    32.265] (II) evdev: HD Webcam C525: Configuring as keyboard
+[    32.265] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:1a.0/usb1/1-1/1-1.1/1-1.1.2/1-1.1.2:1.2/input/input17/event14"
+[    32.265] (II) XINPUT: Adding extended input device "HD Webcam C525" (type: KEYBOARD, id 10)
+[    32.265] (**) Option "xkb_rules" "evdev"
+[    32.265] (**) Option "xkb_model" "pc105"
+[    32.265] (**) Option "xkb_layout" "us"
+[    32.265] (II) config/udev: Adding input device Logitech USB Keyboard (/dev/input/event4)
+[    32.265] (**) Logitech USB Keyboard: Applying InputClass "evdev keyboard catchall"
+[    32.265] (II) Using input driver 'evdev' for 'Logitech USB Keyboard'
+[    32.265] (**) Logitech USB Keyboard: always reports core events
+[    32.265] (**) evdev: Logitech USB Keyboard: Device: "/dev/input/event4"
+[    32.265] (--) evdev: Logitech USB Keyboard: Vendor 0x46d Product 0xc31d
+[    32.265] (--) evdev: Logitech USB Keyboard: Found keys
+[    32.265] (II) evdev: Logitech USB Keyboard: Configuring as keyboard
+[    32.265] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:1a.0/usb1/1-1/1-1.1/1-1.1.4/1-1.1.4:1.0/0003:046D:C31D.0003/input/input7/event4"
+[    32.266] (II) XINPUT: Adding extended input device "Logitech USB Keyboard" (type: KEYBOARD, id 11)
+[    32.266] (**) Option "xkb_rules" "evdev"
+[    32.266] (**) Option "xkb_model" "pc105"
+[    32.266] (**) Option "xkb_layout" "us"
+[    32.266] (II) config/udev: Adding input device Logitech USB Keyboard (/dev/input/event5)
+[    32.266] (**) Logitech USB Keyboard: Applying InputClass "evdev keyboard catchall"
+[    32.266] (II) Using input driver 'evdev' for 'Logitech USB Keyboard'
+[    32.266] (**) Logitech USB Keyboard: always reports core events
+[    32.266] (**) evdev: Logitech USB Keyboard: Device: "/dev/input/event5"
+[    32.266] (--) evdev: Logitech USB Keyboard: Vendor 0x46d Product 0xc31d
+[    32.266] (--) evdev: Logitech USB Keyboard: Found absolute axes
+[    32.266] (II) evdev: Logitech USB Keyboard: Forcing absolute x/y axes to exist.
+[    32.266] (--) evdev: Logitech USB Keyboard: Found keys
+[    32.266] (II) evdev: Logitech USB Keyboard: Forcing relative x/y axes to exist.
+[    32.266] (II) evdev: Logitech USB Keyboard: Configuring as mouse
+[    32.266] (II) evdev: Logitech USB Keyboard: Configuring as keyboard
+[    32.266] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:1a.0/usb1/1-1/1-1.1/1-1.1.4/1-1.1.4:1.1/0003:046D:C31D.0004/input/input8/event5"
+[    32.266] (II) XINPUT: Adding extended input device "Logitech USB Keyboard" (type: KEYBOARD, id 12)
+[    32.266] (**) Option "xkb_rules" "evdev"
+[    32.266] (**) Option "xkb_model" "pc105"
+[    32.266] (**) Option "xkb_layout" "us"
+[    32.266] (II) evdev: Logitech USB Keyboard: initialized for absolute axes.
+[    32.266] (**) Logitech USB Keyboard: (accel) keeping acceleration scheme 1
+[    32.266] (**) Logitech USB Keyboard: (accel) acceleration profile 0
+[    32.266] (**) Logitech USB Keyboard: (accel) acceleration factor: 2.000
+[    32.266] (**) Logitech USB Keyboard: (accel) acceleration threshold: 4
+[    32.266] (II) config/udev: Adding input device HDA Intel PCH Rear Mic (/dev/input/event7)
+[    32.266] (II) No input driver specified, ignoring this device.
+[    32.266] (II) This device may have been added with another device file.
+[    32.266] (II) config/udev: Adding input device HDA Intel PCH Line (/dev/input/event8)
+[    32.266] (II) No input driver specified, ignoring this device.
+[    32.266] (II) This device may have been added with another device file.
+[    32.267] (II) config/udev: Adding input device HDA Intel PCH Line Out Front (/dev/input/event9)
+[    32.267] (II) No input driver specified, ignoring this device.
+[    32.267] (II) This device may have been added with another device file.
+[    32.267] (II) config/udev: Adding input device HDA Intel PCH Line Out Surround (/dev/input/event10)
+[    32.267] (II) No input driver specified, ignoring this device.
+[    32.267] (II) This device may have been added with another device file.
+[    32.267] (II) config/udev: Adding input device HDA Intel PCH Line Out CLFE (/dev/input/event11)
+[    32.267] (II) No input driver specified, ignoring this device.
+[    32.267] (II) This device may have been added with another device file.
+[    32.267] (II) config/udev: Adding input device HDA Intel PCH Line Out Side (/dev/input/event12)
+[    32.267] (II) No input driver specified, ignoring this device.
+[    32.267] (II) This device may have been added with another device file.
+[    32.267] (II) config/udev: Adding input device HDA Intel PCH Front Headphone (/dev/input/event13)
+[    32.267] (II) No input driver specified, ignoring this device.
+[    32.267] (II) This device may have been added with another device file.
+[    32.267] (II) config/udev: Adding input device HDA Intel PCH Front Mic (/dev/input/event6)
+[    32.267] (II) No input driver specified, ignoring this device.
+[    32.267] (II) This device may have been added with another device file.
+[    32.267] (II) config/udev: Adding input device Eee PC WMI hotkeys (/dev/input/event15)
+[    32.268] (**) Eee PC WMI hotkeys: Applying InputClass "evdev keyboard catchall"
+[    32.268] (II) Using input driver 'evdev' for 'Eee PC WMI hotkeys'
+[    32.268] (**) Eee PC WMI hotkeys: always reports core events
+[    32.268] (**) evdev: Eee PC WMI hotkeys: Device: "/dev/input/event15"
+[    32.268] (--) evdev: Eee PC WMI hotkeys: Vendor 0 Product 0
+[    32.268] (--) evdev: Eee PC WMI hotkeys: Found keys
+[    32.268] (II) evdev: Eee PC WMI hotkeys: Configuring as keyboard
+[    32.268] (**) Option "config_info" "udev:/sys/devices/platform/eeepc-wmi/input/input18/event15"
+[    32.268] (II) XINPUT: Adding extended input device "Eee PC WMI hotkeys" (type: KEYBOARD, id 13)
+[    32.268] (**) Option "xkb_rules" "evdev"
+[    32.268] (**) Option "xkb_model" "pc105"
+[    32.268] (**) Option "xkb_layout" "us"
+[    32.512] (--) NVIDIA(GPU-0): CRT-0: disconnected
+[    32.512] (--) NVIDIA(GPU-0): CRT-0: 400.0 MHz maximum pixel clock
+[    32.512] (--) NVIDIA(GPU-0): 
+[    32.543] (--) NVIDIA(GPU-0): DELL E207WFP (DFP-0): connected
+[    32.543] (--) NVIDIA(GPU-0): DELL E207WFP (DFP-0): Internal TMDS
+[    32.543] (--) NVIDIA(GPU-0): DELL E207WFP (DFP-0): 330.0 MHz maximum pixel clock
+[    32.543] (--) NVIDIA(GPU-0): 
+[    32.543] (--) NVIDIA(GPU-0): DFP-1: disconnected
+[    32.543] (--) NVIDIA(GPU-0): DFP-1: Internal TMDS
+[    32.543] (--) NVIDIA(GPU-0): DFP-1: 165.0 MHz maximum pixel clock
+[    32.543] (--) NVIDIA(GPU-0): 
+[    32.543] (--) NVIDIA(GPU-0): DFP-2: disconnected
+[    32.543] (--) NVIDIA(GPU-0): DFP-2: Internal DisplayPort
+[    32.543] (--) NVIDIA(GPU-0): DFP-2: 960.0 MHz maximum pixel clock
+[    32.543] (--) NVIDIA(GPU-0): 
+[    32.579] (--) NVIDIA(GPU-0): DELL E207WFP (DFP-3): connected
+[    32.579] (--) NVIDIA(GPU-0): DELL E207WFP (DFP-3): Internal TMDS
+[    32.579] (--) NVIDIA(GPU-0): DELL E207WFP (DFP-3): 165.0 MHz maximum pixel clock
+[    32.579] (--) NVIDIA(GPU-0): 
+[    32.595] (--) NVIDIA(GPU-0): DELL E207WFP (DFP-4): connected
+[    32.595] (--) NVIDIA(GPU-0): DELL E207WFP (DFP-4): Internal TMDS
+[    32.595] (--) NVIDIA(GPU-0): DELL E207WFP (DFP-4): 330.0 MHz maximum pixel clock
+[    32.595] (--) NVIDIA(GPU-0): 
+[    32.703] (--) NVIDIA(GPU-0): CRT-0: disconnected
+[    32.703] (--) NVIDIA(GPU-0): CRT-0: 400.0 MHz maximum pixel clock
+[    32.703] (--) NVIDIA(GPU-0): 
+[    32.733] (--) NVIDIA(GPU-0): DELL E207WFP (DFP-0): connected
+[    32.733] (--) NVIDIA(GPU-0): DELL E207WFP (DFP-0): Internal TMDS
+[    32.733] (--) NVIDIA(GPU-0): DELL E207WFP (DFP-0): 330.0 MHz maximum pixel clock
+[    32.733] (--) NVIDIA(GPU-0): 
+[    32.733] (--) NVIDIA(GPU-0): DFP-1: disconnected
+[    32.733] (--) NVIDIA(GPU-0): DFP-1: Internal TMDS
+[    32.733] (--) NVIDIA(GPU-0): DFP-1: 165.0 MHz maximum pixel clock
+[    32.733] (--) NVIDIA(GPU-0): 
+[    32.733] (--) NVIDIA(GPU-0): DFP-2: disconnected
+[    32.733] (--) NVIDIA(GPU-0): DFP-2: Internal DisplayPort
+[    32.733] (--) NVIDIA(GPU-0): DFP-2: 960.0 MHz maximum pixel clock
+[    32.733] (--) NVIDIA(GPU-0): 
+[    32.769] (--) NVIDIA(GPU-0): DELL E207WFP (DFP-3): connected
+[    32.769] (--) NVIDIA(GPU-0): DELL E207WFP (DFP-3): Internal TMDS
+[    32.769] (--) NVIDIA(GPU-0): DELL E207WFP (DFP-3): 165.0 MHz maximum pixel clock
+[    32.769] (--) NVIDIA(GPU-0): 
+[    32.785] (--) NVIDIA(GPU-0): DELL E207WFP (DFP-4): connected
+[    32.785] (--) NVIDIA(GPU-0): DELL E207WFP (DFP-4): Internal TMDS
+[    32.785] (--) NVIDIA(GPU-0): DELL E207WFP (DFP-4): 330.0 MHz maximum pixel clock
+[    32.785] (--) NVIDIA(GPU-0): 

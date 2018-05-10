@@ -1,0 +1,32 @@
+[ 73653.614] 
+X.Org X Server 1.18.4
+Release Date: 2016-07-19
+[ 73653.614] X Protocol Version 11, Revision 0
+[ 73653.615] Build Operating System: Linux 4.4.0-97-generic x86_64 Ubuntu
+[ 73653.615] Current Operating System: Linux CPC 4.4.0-122-generic #146-Ubuntu SMP Mon Apr 23 15:34:04 UTC 2018 x86_64
+[ 73653.615] Kernel command line: BOOT_IMAGE=/boot/vmlinuz-4.4.0-122-generic root=UUID=1f1b55ae-c75b-4f33-8855-d49e579c1d52 ro
+[ 73653.615] Build Date: 13 October 2017  01:57:05PM
+[ 73653.615] xorg-server 2:1.18.4-0ubuntu0.7 (For technical support please see http://www.ubuntu.com/support) 
+[ 73653.615] Current version of pixman: 0.33.6
+[ 73653.615] 	Before reporting problems, check http://wiki.x.org
+	to make sure that you have the latest version.
+[ 73653.615] Markers: (--) probed, (**) from config file, (==) default setting,
+	(++) from command line, (!!) notice, (II) informational,
+	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+[ 73653.615] (==) Log file: "/var/log/Xorg.1.log", Time: Tue May  1 13:07:11 2018
+[ 73653.615] (==) Using config file: "/etc/X11/xorg.conf"
+[ 73653.615] (==) Using system config directory "/usr/share/X11/xorg.conf.d"
+[ 73653.615] Data incomplete in file /etc/X11/xorg.conf
+	Undefined Screen "Screen1" referenced by ServerLayout "Layout0".
+[ 73653.615] (EE) Problem parsing the config file
+[ 73653.615] (EE) Error parsing the config file
+[ 73653.615] (EE) 
+Fatal server error:
+[ 73653.615] (EE) no screens found(EE) 
+[ 73653.615] (EE) 
+Please consult the The X.Org Foundation support 
+	 at http://wiki.x.org
+ for help. 
+[ 73653.615] (EE) Please also check the log file at "/var/log/Xorg.1.log" for additional information.
+[ 73653.615] (EE) 
+[ 73653.615] (EE) Server terminated with error (1). Closing log file.
